@@ -11,6 +11,7 @@ return (
         direction="column"
         alignItems="center"
         justify= "center"
+        margin-top= "500"
     >
         <Card 
             sx={{ maxWidth: 345 }}
@@ -19,7 +20,7 @@ return (
                 <CardMedia
                 component="img"
                 height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image="./img/images/cards/contemplative-reptile.jpg"
                 alt="green iguana"
                 />
                 <CardContent>
@@ -38,7 +39,6 @@ return (
                 </Button>
             </CardActions>
         </Card>
-
     </Grid>
 
 );
