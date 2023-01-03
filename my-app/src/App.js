@@ -17,7 +17,7 @@ import Button from '@mui/material/Button';
 
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact'];
+const navItems = ['WHAT WE DO', 'TEAM', 'CONTACT'];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -27,17 +27,15 @@ function DrawerAppBar(props) {
     setMobileOpen((prevState) => !prevState);
   };
 
-
-
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        WeWe Vision
       </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+          <ListItem variant="h6" key={item}  disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
               <ListItemText primary={item} />
             </ListItemButton>
@@ -64,11 +62,11 @@ function DrawerAppBar(props) {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h6"
+            variant="h4"
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            MUI
+            WeWe Vision
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
@@ -96,21 +94,12 @@ function DrawerAppBar(props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
-        <Typography>
-          Hello World
-        </Typography>
-      </Box>
+
     </Box>
   );
 }
 
 DrawerAppBar.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window: PropTypes.func,
 };
 

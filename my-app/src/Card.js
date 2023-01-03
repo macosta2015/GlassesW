@@ -13,6 +13,7 @@ return (
         alignItems="center"
         justify= "center"
         margin-top= "500"
+        margin-bottom="500"
     >
         <Card 
             sx={{ maxWidth: 345 }}
