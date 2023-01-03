@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Card from './Card';
+import Input from './Input';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -10,9 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <br>
-    </br>
     <Card />
+    <Input />
 
   </React.StrictMode>
 );
