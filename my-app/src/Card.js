@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Grid, Button, CardActionArea, CardActions } from '@mui/material';
+import image from './img/WeWeGlassesImage1.jpg'
 
 export default function MultiActionAreaCard() {
 return (
@@ -20,16 +21,15 @@ return (
                 <CardMedia
                 component="img"
                 height="140"
-                image="./img/images/cards/contemplative-reptile.jpg"
+                image= {image}
                 alt="green iguana"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                    Hello World
+                    WeWe Glasses pairs
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
+                    We are helping kids and older adults to see in a more affordable way.
                     </Typography>
                 </CardContent>
             </CardActionArea>
