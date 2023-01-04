@@ -5,6 +5,8 @@ import App from './App';
 import WWD from './WWD';
 import Card from './Card';
 import Input from './Input';
+import Book from './Book';
+
 
 import reportWebVitals from './reportWebVitals';
 
@@ -13,7 +15,14 @@ root.render(
   <React.StrictMode>
 
     <App />
+    <br>
+    </br>
+    <br>
+    </br>
     <WWD />
+    <Book />
+    <br>
+    </br>
     <Card />
     <Input />
 

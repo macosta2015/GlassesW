@@ -36,9 +36,6 @@ export default function HorizontalCentering() {
             fontWeight: '700',
           }}
         >
-          {/* <Typography sx={{ typography: { sm: 'h1', xs: 'h5' } }} >
-          Hello world!
-          </Typography>       */}
           <Typography sx={{ typography: { sm: 'h1', xs: 'h5' } }} >
           What We Do
           </Typography>       
