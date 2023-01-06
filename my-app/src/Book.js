@@ -10,16 +10,24 @@ const styles = theme => ({
     //     flexGrow: 1
     // },
     paper: {
-        padding: theme.spacing(12),
-        textAlign: 'center',
-        fontSize: 15,
+        padding: theme.spacing(10),
+        xs:"10",
+        sm:"6",
+        md:"3",
+        lg:"12",
+        xl:"12",
     },
     container: {
-        direction: "column", 
-        alignItems: "center",
-        justify: "center",
-    }
+        margin_left: "auto",
+        margin_right: "auto",
+        border: "5px solid",
 
+        // border: "5px solid",
+        // padding: "50px 0"
+        // direction: "column", 
+        // alignItems: "center",
+        // justify: "center",
+    }
 });
 
 
@@ -27,8 +35,8 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
     // <div className={classes.root}>
         <div className= {classes.container}
         >
-            <Grid item xs={10} sm={6} md={3}>
-                <Paper className={classes.paper}>
+            {/* <Grid item xs={10} sm={6} md={3}> */}
+                <Paper className={classes.paper} >
                     {/* xs=12 sm=6 md=3 */}
                     <TextField
                         sx={{
@@ -41,9 +49,9 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     variant="standard"                
                 />
                 </Paper>
-            </Grid>
+            {/* </Grid> */}
 
-            <Grid item xs={10} sm={6} md={3}>
+            {/* <Grid item xs={10} sm={6} md={3}> */}
                 <Paper className={classes.paper}>
                     {/* xs=12 sm=6 md=3 */}
                     <TextField
@@ -57,9 +65,9 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     variant="standard"   
                 />
                 </Paper>
-            </Grid>
+            {/* </Grid> */}
                 
-            <Grid item xs={10} sm={6} md={3}>
+            {/* <Grid item xs={10} sm={6} md={3}> */}
                 <Paper className={classes.paper}>
                     {/* xs=12 sm=6 md=3 */}
                     <TextField
@@ -73,7 +81,7 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     variant="standard"
                     />
                 </Paper>
-            </Grid>
+            {/* </Grid> */}
         </div>
     // </div>
 ));
