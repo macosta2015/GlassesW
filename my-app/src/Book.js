@@ -6,23 +6,26 @@ import TextField from '@mui/material/TextField';
 
 
 const styles = theme => ({
-    root: {
-    flexGrow: 1
-    },
+    // root: {
+    //     flexGrow: 1
+    // },
     paper: {
-    padding: theme.spacing(12),
-    textAlign: 'center',
-    fontSize: 30,
+        padding: theme.spacing(12),
+        textAlign: 'center',
+        fontSize: 15,
+    },
+    container: {
+        direction: "column", 
+        alignItems: "center",
+        justify: "center",
     }
+
 });
 
 
 const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
-    <div className={classes.root}>
-        <Grid container 
-            direction="column" //We can delete this one 
-            alignItems="center"
-            justify= "center"
+    // <div className={classes.root}>
+        <div className= {classes.container}
         >
             <Grid item xs={10} sm={6} md={3}>
                 <Paper className={classes.paper}>
@@ -71,7 +74,7 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     />
                 </Paper>
             </Grid>
-        </Grid>
-    </div>
+        </div>
+    // </div>
 ));
 export default UnderstandingBreakpoints;
