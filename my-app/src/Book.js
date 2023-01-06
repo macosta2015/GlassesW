@@ -12,15 +12,17 @@ const styles = theme => ({
     paper: {
         padding: theme.spacing(10),
         xs:"10",
-        sm:"6",
-        md:"3",
+        sm:"4",
+        md:"4",
         lg:"12",
         xl:"12",
     },
     container: {
-        margin_left: "auto",
-        margin_right: "auto",
-        border: "5px solid",
+        display: "flex",
+        // alignItems: "center",
+        // margin_left: "auto",
+        // margin_right: "auto",
+        // border: "5px solid",
 
         // border: "5px solid",
         // padding: "50px 0"
@@ -40,7 +42,7 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     {/* xs=12 sm=6 md=3 */}
                     <TextField
                         sx={{
-                            width: 500,
+                            width: '100%',
                             maxWidth: '100%',
                         }}
                     color="success" 
@@ -56,7 +58,7 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     {/* xs=12 sm=6 md=3 */}
                     <TextField
                         sx={{
-                            width: 500,
+                            width: 600,
                             maxWidth: '100%',
                         }}
                     color="success" 
@@ -72,7 +74,7 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     {/* xs=12 sm=6 md=3 */}
                     <TextField
                         sx={{
-                            width: 500,
+                            width: 600,
                             maxWidth: '100%',
                         }}
                     color="success" 
