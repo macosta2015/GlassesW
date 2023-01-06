@@ -35,14 +35,17 @@ const styles = theme => ({
 
 const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
     // <div className={classes.root}>
-        <div className= {classes.container}
+        <Grid className= {classes.container}
+            direction="column"
+            alignItems="center"
+            justify= "center"
+            margin-top= "500"
         >
             {/* <Grid item xs={10} sm={6} md={3}> */}
                 <Paper className={classes.paper} >
                     {/* xs=12 sm=6 md=3 */}
                     <TextField
                         sx={{
-                            width: '100%',
                             maxWidth: '100%',
                         }}
                     color="success" 
@@ -58,7 +61,6 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     {/* xs=12 sm=6 md=3 */}
                     <TextField
                         sx={{
-                            width: 600,
                             maxWidth: '100%',
                         }}
                     color="success" 
@@ -74,7 +76,6 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     {/* xs=12 sm=6 md=3 */}
                     <TextField
                         sx={{
-                            width: 600,
                             maxWidth: '100%',
                         }}
                     color="success" 
@@ -84,7 +85,7 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
                     />
                 </Paper>
             {/* </Grid> */}
-        </div>
+        </Grid>
     // </div>
 ));
 export default UnderstandingBreakpoints;
