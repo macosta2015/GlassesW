@@ -32,14 +32,13 @@ const styles = theme => ({
     }
 });
 
-
 const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
     // <div className={classes.root}>
         <Grid className= {classes.container}
             direction="column"
             alignItems="center"
             // justify= "center"
-            margin-top= "500"
+            margin-top= "400"
         >
             {/* <Grid item xs={10} sm={6} md={3}> */}
                 <Paper className={classes.paper} >
