@@ -37,7 +37,7 @@ const UnderstandingBreakpoints = withStyles(styles)(({ classes }) => (
         <Grid className= {classes.container}
             direction="column"
             alignItems="center"
-            // justify= "center"
+            justify= "center"
             margin-top= "450"
         >
             {/* <Grid item xs={10} sm={6} md={3}> */}
