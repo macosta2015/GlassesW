@@ -23,7 +23,6 @@ const styles = theme => ({
         // margin_left: "auto",
         // margin_right: "auto",
         // border: "5px solid",
-
         // border: "5px solid",
         // padding: "50px 0"
         // direction: "column", 
