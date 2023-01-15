@@ -41,7 +41,7 @@ export default function HorizontalCentering() {
           </Typography>       
           <Typography align="left" sx={{ typography: { sm: 'h3', xs: 'h5' } }} >
             We provide vision to needed people by making use of the latest technologies. 
-            Additive manufacturing has provided us to lower the logistical costs. 
+            3D printing has provided us to lower the logistical costs. 
           </Typography>
       </Box>
       </Grid>
