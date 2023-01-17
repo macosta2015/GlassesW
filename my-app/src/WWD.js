@@ -19,7 +19,7 @@ export default function HorizontalCentering() {
           sx={{
             mx: 'auto',
             width: '90%',
-            p: '10%',
+            p: '11%',
             m: '5%',
             // p: 10,
             // m: 10,
