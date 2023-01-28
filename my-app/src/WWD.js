@@ -18,7 +18,7 @@ export default function HorizontalCentering() {
         <Box
           sx={{
             mx: 'auto',
-            width: '90%',
+            width: '91%',
             p: '11%',
             m: '5%',
             // p: 10,
