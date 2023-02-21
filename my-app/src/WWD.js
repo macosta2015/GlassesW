@@ -13,7 +13,7 @@ export default function HorizontalCentering() {
         direction="column"
         alignItems="center"
         justify= "center"
-        margin-top= "500"
+        margin-top= "501"
         >
         <Box
           sx={{
