@@ -12,9 +12,9 @@ export default function HorizontalCentering() {
       <Grid container
         direction="column"
         alignItems="center"
-        justify= "center"
-        margin-top= "500"
-        >
+        justify="center"
+        margin-top="501"
+      >
         <Box
           sx={{
             mx: 'auto',
@@ -37,13 +37,13 @@ export default function HorizontalCentering() {
           }}
         >
           <Typography sx={{ typography: { sm: 'h1', xs: 'h5' } }} >
-          What We Do
-          </Typography>       
-          <Typography align="left" sx={{ typography: { sm: 'h3', xs: 'h5' } }} >
-            We provide vision to needed people by making use of the latest technologies. 
-            3D printing has provided us to lower the logistical costs. 
+            What We Do
           </Typography>
-      </Box>
+          <Typography align="left" sx={{ typography: { sm: 'h3', xs: 'h5' } }} >
+            We provide vision to needed people by making use of the latest technologies.
+            3D printing has provided us to lower the logistical costs.
+          </Typography>
+        </Box>
       </Grid>
     </div>
   );
